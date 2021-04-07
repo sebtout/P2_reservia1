@@ -1,0 +1,77 @@
+body{
+	background-color: black;
+}
+.marseillepopulaire{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: yellow;
+	margin-left: 35px;
+	margin-right: 35px;
+}
+/*MARSEILLE*/
+.boite{
+	background-color: grey;
+	width: 600px;
+	min-width: 65%;
+}
+
+.boite1 p{
+	margin-left: 25px;
+}
+.boite2{
+	background-color: red;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: space-between;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.boite3{
+	background-color: #FFF;
+	display: flex;
+	min-width: 160px;
+	width: 33%;
+}
+.boite3 img{
+	width: 90%;
+	height: 60%;
+	object-fit: cover;
+}
+/*POPULAIRES*/
+.boited{
+	display: flex;
+}
+.boited1 p{
+	margin-left: 25px;
+
+}
+.boited1{
+	background-color: grey;
+    width: 350px;
+    min-width: 100%;
+}
+
+.boited2{
+	background-color: red;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	height: 400px;
+	margin-left: 25px;
+	margin-right: 25px;
+	min-height: 85%;
+}
+.boited3{
+	background-color: #FFF;
+	height: 120px;
+	min-height: 30%;
+}
+
+.boited3 img{
+	width: 40%;
+	height: 90%;
+	object-fit: cover;
+}
