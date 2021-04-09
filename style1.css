@@ -35,9 +35,7 @@ p{
 	margin-left: 35px;
 	padding-top: 15px;
 }
-.titreh2 div{
 
-}
 .titreStr{
 }
 .info1 a{
@@ -594,8 +592,51 @@ footer{
 @media screen and (max-width: 600px)
 
 	{
+	/*HEADER*/
+		.infoprincipal{
+			width: 100%;
+			border-bottom: 3px solid #f2f2f2;
+			height: 60px;
+		}
+		.info1{
+			order: 1;
+			position: absolute;
+			top: 15px;
+			right: -10px;
+		}
+		.infonav{
+			width: 50%;
+			margin: 0;
+			padding: 0;
+			text-align: center;
+		}
+		.infonav a:hover{
+			border-top: 0px solid #0065FC;
+			border-bottom: 3px solid #0065FC;
+			padding-bottom: 12px;
+			padding-top: 0;
+		}
+
+		/*RECHERCHE*/
+
+		i.fas.fa-info {
+    		margin-top: -17px;
+		}
+		
+
+
+	/*HEBERGE+POPULAIRE*/
+
+		.hebergepopu{
+			display: flex;
+			flex-direction: column-reverse;
+		}
 
 	/*HEBERGEMENT A MARSEILLE*/
+		.titreh2{
+			margin-left: 35px;
+			padding-top: 0;
+		}
 
 		.S1{
 			background-color: #fff;
@@ -614,7 +655,27 @@ footer{
 		.element2{
 			width: 100%;
 		}
+		.destination{
+			display: flex;
+			flex-wrap: wrap;
+		}
 	/*ACTIVITES*/
-		
 
+		.activites{
+			display: block;
+		}
+		.calanques img{
+			height: 150px;
+		}
+		.port img{
+			height: 150px;
+		}
+	/*FOOTER*/
+
+		.tout{
+			display: flex;
+			flex-direction: column;
+
+		}
+		
 	}
