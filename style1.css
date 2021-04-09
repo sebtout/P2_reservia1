@@ -117,6 +117,7 @@ nav{
 }
 .in::placeholder{
 	font-weight: bold;
+	font-size: medium;
 	color: black;
 	font-family: raleway;
 	padding-left: 10px;
@@ -144,11 +145,11 @@ nav{
 .button {
     border-radius: 40px;
     border: 3px solid #F2F2F2;
-    display: flex;
     margin-bottom: 5px;
 }
-
-
+.button a{
+	display: flex;
+}
 .icon {
     display: flex;
     border-radius: 50%;
@@ -437,7 +438,17 @@ footer{
 			width: 100%;
 		}
 		.info1{
-
+			order: 1;
+			width: 100%;
+			position: absolute;
+			top: 0;
+			right: -30px;
+		}
+		.infonav{
+			width: 50%;
+			margin: 0;
+			padding: 0;
+			text-align: center;
 		}
 
 	/*FITRE barre de recherche*/
@@ -464,7 +475,6 @@ footer{
 			margin-left: 0px;
 			margin-right: 0px;
 			display: flex;
-			flex-direction: column-reverse;
 		}
 		.S1 .herbergepopu{
 		}
@@ -480,7 +490,7 @@ footer{
 			width: 98%;
 		}
 		.element{
-			min-width: 100%;
+			min-width: 50%;
 		}
 
 		.element1{
@@ -509,11 +519,14 @@ footer{
 			margin-top: -50px;
 		}
 		.populaires{
+			display: flex;
+			flex-wrap: wrap;
 			min-width: 95%;
-			height: 350px;
+			height: 90%;
 			margin-left: 15px;
 		}
 		.element2{
+			width: 50%;
 			height: 140px;
 			margin-bottom: 10px;
 		}
@@ -524,6 +537,7 @@ footer{
 
 		.activites{
 			margin: 0 0 0 5px;
+			width: 100%;
 		}
 		.destination img{
 			height: 150px;
@@ -534,11 +548,19 @@ footer{
 			margin-top: 15px;
 		}
 		.destination{
-			min-width: 475px;
+			min-width: 50%;
 			display: flex;
     		flex-direction: column;
 		}
-		
+		.calanques, .port{
+			height: 100%;
+		}
+		.calanques img{
+			height: 92%;
+		}
+		.port img{
+			height: 92%;
+		}
 	/*FOOTER*/
 
 		footer{
@@ -547,7 +569,6 @@ footer{
 		}
 		.tout{
 			display: flex;
-			flex-direction: column;
 		}
 	}
 
