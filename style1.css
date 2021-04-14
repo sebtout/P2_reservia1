@@ -43,12 +43,14 @@ p{
 }
 
 .infoprincipal div{
-	padding: 15px;
-	margin-right: 35px;
+	padding: 25px;
+	margin-right: 15px;
+	border-top: 3px solid #fff;
 }
-.infonav a:hover{
+.infonav:hover{
 	border-top: 3px solid #0065FC;
-	padding-top: 27px;
+}
+.infonav{
 }
 header{
 	display: flex;
@@ -56,6 +58,8 @@ header{
 	align-content: space-between;
 	justify-content: space-between;
 }
+
+
 /*titreh2*/
 .titreStr p{
 	font-size: 20px;
@@ -89,7 +93,7 @@ nav{
 }
 .search1{
 	background: #0065FC;
-	width: 100px;
+	padding: 0 20px;
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
 	display: flex;
@@ -100,6 +104,9 @@ nav{
 .search1 a{
 	color: white;
 	font-size: 0.9em;
+}
+.fas.fa-search{
+	display: none;
 }
 
 .logogps{
@@ -136,7 +143,6 @@ nav{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	width: 65%;
 	font-size: 1.1em;
 }
 
@@ -144,6 +150,7 @@ nav{
     border-radius: 40px;
     border: 3px solid #F2F2F2;
     margin-bottom: 5px;
+    margin-right: 40px;
 }
 .button a{
 	display: flex;
@@ -155,6 +162,7 @@ nav{
     width: 40px;
     align-items: center;
     justify-content: center;
+    transform: scale(1.15);
 }
 .texticon {
     padding: 10px;
@@ -246,6 +254,9 @@ nav{
     min-width: 170px;
     box-shadow: 0px 7px 7px -3px rgba(0,0,0,0.57);
 }
+.element1 a{
+	width: 100%;
+}
 .conteneur{
 	display: flex;
 	justify-content: space-between;
@@ -254,6 +265,7 @@ nav{
 }
 .textheberge{
 	width: 90%;
+	margin-bottom: -30px;
 }
 .textafficher{
 	width: 90%;
@@ -307,7 +319,8 @@ nav{
 	width: 80%;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: -10px;
 }
 .nuiter1{
 	font-size: 11px;
@@ -343,6 +356,7 @@ nav{
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0 25px 35px 25px;
+	width: 100%
 }
 .destination{
 	flex: 0 0 25%;
@@ -358,6 +372,7 @@ nav{
 .actimars{
 	margin-left: 35px;
 	margin-top: 35px;
+	width: 100%;
 }
 .activites img{
 	overflow: auto;
@@ -596,7 +611,11 @@ footer{
 		.infoprincipal{
 			width: 100%;
 			border-bottom: 3px solid #f2f2f2;
-			height: 60px;
+		}
+		.infoprincipal div{
+			margin-right: 0;
+			padding: 15px;
+			border-top: none;
 		}
 		.info1{
 			order: 1;
@@ -610,17 +629,28 @@ footer{
 			padding: 0;
 			text-align: center;
 		}
-		.infonav a:hover{
+		.infonav:hover{
+			border-bottom: 3px solid #0065fc;
+			border-top: none;
+
+		}
+		/*.infonav a:hover{
 			border-top: 0px solid #0065FC;
 			border-bottom: 3px solid #0065FC;
 			padding-bottom: 12px;
 			padding-top: 0;
-		}
+		}*/
 
 		/*RECHERCHE*/
 
 		i.fas.fa-info {
     		margin-top: -17px;
+		}
+		.fas.fa-search{
+			display: block;
+		}
+		.searchbouton{
+			display: none;
 		}
 		
 
