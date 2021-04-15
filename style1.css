@@ -512,6 +512,7 @@ footer{
 			padding: 20px 0 10px 20px;
 			font-size: 20px;
 			width: 100%;
+			margin: 0;
 		}
 		.textafficher{
 			padding: 20px;
@@ -529,7 +530,7 @@ footer{
 			max-height: 350px;
 		}
 		.textpopu{
-			width: 93%;
+			width: 90%;
 			font-size: 20px;
 			padding-bottom: 10px;
 		}
@@ -683,6 +684,7 @@ footer{
 			display: flex;
 			flex-wrap: wrap;
 		}
+
 	/*ACTIVITES*/
 
 		.activites{
