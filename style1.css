@@ -610,7 +610,6 @@ footer{
 	/*HEADER*/
 		.infoprincipal{
 			width: 100%;
-			border-bottom: 3px solid #f2f2f2;
 		}
 		.infoprincipal div{
 			margin-right: 0;
@@ -628,23 +627,18 @@ footer{
 			margin: 0;
 			padding: 0;
 			text-align: center;
+			border-bottom: 3px solid #f2f2f2;
 		}
 		.infonav:hover{
 			border-bottom: 3px solid #0065fc;
 			border-top: none;
 
 		}
-		/*.infonav a:hover{
-			border-top: 0px solid #0065FC;
-			border-bottom: 3px solid #0065FC;
-			padding-bottom: 12px;
-			padding-top: 0;
-		}*/
+		
 
 		/*RECHERCHE*/
 
 		i.fas.fa-info {
-    		margin-top: -17px;
 		}
 		.fas.fa-search{
 			display: block;
