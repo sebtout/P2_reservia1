@@ -450,9 +450,156 @@ footer{
     justify-content: space-evenly;
 }
 
+
+/*RESPONSIVE ORDI PORTABLE*/
+
+@media screen and (max-width: 1024px)
+	{
+
+    /*FILTRE*/
+
+		.filtre{
+			width: 80%;
+			margin-left: -10px;
+		}
+		.button{
+			margin: 5px;
+		}
+		.menufiltre{
+			display: flex;
+			flex-direction: column;
+			margin-top: 5px;
+		}
+		.textefiltre p{
+			font-size: 20px;
+		}
+
+	/*HEBERGE+POPULAIRE*/
+
+		.hebergepopu{
+			margin-left: 0px;
+			margin-right: 0px;
+			display: flex;
+		}
+		.S1 .herbergepopu{
+		}
+
+	/*HEBERGEMENT A MERSEILLE*/
+
+		.S1{
+			width: 100%;
+			margin-bottom: 25px;
+			border-radius: 0;
+		}
+		.conteneur{
+			width: 98%;
+		}
+		.element{
+			min-width: 50%;
+		}
+
+		.element1 img{
+			height: 130px;
+		}
+		.textheberge{
+			padding: 20px 0 10px 20px;
+			font-size: 20px;
+			width: 100%;
+			margin: 0;
+		}
+		.textafficher{
+			padding: 20px;
+			font-size: 20px;
+			width: 100%;
+		}
+
+	/*POPULAIRES*/
+
+		.S2{
+			width: 100%;
+			margin-bottom: 25px;
+			border-radius: 0;
+			min-height: 0px;
+			max-height: 350px;
+		}
+		.textpopu{
+			width: 90%;
+			font-size: 20px;
+			padding-bottom: 10px;
+		}
+		.textphoto2{
+			display: flex;
+			justify-content: space-between;
+		}
+		.nuiter1{
+			margin-top: -50px;
+		}
+		.populaires{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: flex-start;
+			align-content: space-between;
+			width: 100%;
+    		margin-right: 20px;
+		}
+		.element2{
+			width: 49%;
+			height: 140px;
+			margin-bottom: 15px;
+		}
+		.element2 img{
+			height: 96%;
+		}
+	/*ACTIVITES*/
+
+		.activites{
+			margin: 0 0 0 5px;
+			width: 100%;
+		}
+		.destination img{
+			height: 150px;
+		}
+		.actimars p{
+			font-size: 20px;
+		}
+
+		.actimars{
+			margin-left: 25px;
+			margin-top: 0
+		}
+
+		.destination{
+			min-width: 50%;
+			display: flex;
+    		flex-direction: column;
+		}
+		.calanques, .port{
+			height: 100%;
+		}
+		.calanques img{
+			height: 92%;
+		}
+		.port img{
+			height: 92%;
+		}
+	/*FOOTER*/
+
+		footer{
+			margin-top: 30px;
+			padding-top: 20px;
+		}
+		.info{
+			padding-left: 25px;
+		}
+		.tout{
+			display: flex;
+		}
+	}
+
+
 /*RESPONSIVE tablette*/
 
-@media screen and (max-width: 1100px)
+@media screen and (max-width: 768px)
 
 	{
 	/*HEADER*/
@@ -604,7 +751,7 @@ footer{
 
 /*RESPONSIVE phone*/
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 425px)
 
 	{
 	/*HEADER*/
