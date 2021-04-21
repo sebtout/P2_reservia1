@@ -450,8 +450,15 @@ footer{
     justify-content: space-evenly;
 }
 
+/*redimension block activites calanque*/
 
+@media screen and (max-width: 1055px)
 
+	{
+		.calanques img {
+    height: 243px;
+		}
+	}
 
 
 /*RESPONSIVE tablette + ordi portable -1024*/
