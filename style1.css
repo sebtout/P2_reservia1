@@ -461,9 +461,9 @@ footer{
 	}
 
 
-/*RESPONSIVE tablette + ordi portable -1024*/
+/*RESPONSIVE tablette + ordi portable -768*/
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 768px)
 
 	{
 	/*HEADER*/
