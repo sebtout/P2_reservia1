@@ -421,7 +421,6 @@ footer{
 	display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 65px;
 }
 .titrefonction{
 	margin-bottom: 10px;
@@ -429,13 +428,11 @@ footer{
 .fonction2{
 	display: flex;
     flex-direction: column;
-    height: 65px;
     justify-content: space-evenly;
 }
 .fonction3{
 	display: flex;
     flex-direction: column;
-    height: 65px;
     justify-content: space-evenly;
 }
 
