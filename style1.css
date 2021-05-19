@@ -237,8 +237,6 @@ header{
 	width: 33%;
 }
 .element1{
-	display: flex;
-    flex-wrap: wrap;
     padding: 3px;
     background-color: #FFF;
     border-radius: 20px;
@@ -332,7 +330,6 @@ header{
 	min-width: 30%;
 	min-height: 400px;
 	border-radius: 20px;
-	max-height: 450px;
 }
 .textphoto2{
 	font-size: 14px;
