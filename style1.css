@@ -37,9 +37,6 @@ p{
 	margin-left: 35px;
 	padding-top: 15px;
 }
-
-.titreStr{
-}
 .info1 a{
 	color: #0065fc;
 }
@@ -51,8 +48,6 @@ p{
 }
 .infonav:hover{
 	border-top: 3px solid #0065FC;
-}
-.infonav{
 }
 header{
 	display: flex;
@@ -71,10 +66,6 @@ header{
 }
 
 /*barre de recherche ville*/
-
-nav{
-
-}
 
 .villegps{
 	display: flex;
@@ -349,8 +340,6 @@ nav{
 	height: 80%;
     justify-content: space-around;
 }
-.stars1{
-}
 
 /*Activites*/
 
@@ -498,8 +487,6 @@ footer{
 			margin-right: 0px;
 			display: flex;
 		}
-		.S1 .herbergepopu{
-		}
 
 	/*HEBERGEMENT A MERSEILLE*/
 
@@ -646,11 +633,8 @@ footer{
 
 		}
 		
-
 		/*RECHERCHE*/
 
-		i.fas.fa-info {
-		}
 		.fas.fa-search{
 			display: block;
 		}
