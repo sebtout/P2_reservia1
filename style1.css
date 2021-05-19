@@ -473,7 +473,9 @@ footer{
 		.element{
 			min-width: 50%;
 		}
-
+		.element1{
+			margin-bottom: 15px;
+		}
 		.element1 img{
 			height: 130px;
 		}
@@ -496,7 +498,7 @@ footer{
 			margin-bottom: 25px;
 			border-radius: 0;
 			min-height: 0px;
-			max-height: 350px;
+			max-height: 390px;
 		}
 		.textpopu{
 			width: 90%;
@@ -508,7 +510,7 @@ footer{
 			justify-content: space-between;
 		}
 		.nuiter1{
-			margin-top: -50px;
+			margin-top: -30px;
 		}
 		.populaires{
 			display: flex;
