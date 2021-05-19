@@ -218,10 +218,6 @@ header{
 }
 .textphoto{
 	margin-left: 5px;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	justify-content: space-around;
 	padding: 5px;
 }
 
