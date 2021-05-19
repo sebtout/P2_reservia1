@@ -263,7 +263,7 @@ header{
 .textafficher{
 	width: 90%;
 }
-.S1 {
+.section1 {
 	background-color: #f2f2f2;
 	display: flex;
 	flex-wrap: wrap;
@@ -320,7 +320,7 @@ header{
 	margin-top: -5px;
 }
 
-.S2{
+.section2{
 	background-color: #f2f2f2;
 	display: flex;
 	flex-wrap: wrap;
@@ -377,7 +377,7 @@ header{
 	margin: 10px 0 0 10px;
 
 }
-.S3{
+.section3{
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -490,7 +490,7 @@ footer{
 
 	/*HEBERGEMENT A MERSEILLE*/
 
-		.S1{
+		.section1{
 			width: 100%;
 			margin-bottom: 25px;
 			border-radius: 0;
@@ -519,7 +519,7 @@ footer{
 
 	/*POPULAIRES*/
 
-		.S2{
+		.section2{
 			width: 100%;
 			margin-bottom: 25px;
 			border-radius: 0;
@@ -657,7 +657,7 @@ footer{
 			padding-top: 0;
 		}
 
-		.S1{
+		.section1{
 			background-color: #fff;
 		}
 		.conteneur{
@@ -668,7 +668,7 @@ footer{
 			min-width: 100%;
 		}
 	/*POPULAIRES*/
-		.S2{
+		.section2{
 			min-height: 520px;
 		}
 		.element2{
