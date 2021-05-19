@@ -286,14 +286,12 @@ header{
 	height: 100px;
 	border-radius: 20px / 20px;
 	background: #FFF;
-    margin-bottom: -20px;
     box-shadow: 0px 7px 7px -3px rgba(0,0,0,0.57);
 }
 .populaires{
 	margin: 0 25px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
 	height: 90%;
 }
 .textpopu{
