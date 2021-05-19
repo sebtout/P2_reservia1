@@ -217,16 +217,20 @@ header{
 	border-top-left-radius: 20px;
 }
 .textphoto{
-	margin-left: 5px;
-	padding: 5px;
+	margin-left: 10px;
 }
 
 .nuiter{
 	font-size: 11px;
+	margin: auto;
+}
+.tarif{
+	font-weight: bold;
 }
 .hotel{
 	font-size: 0.8em;
 	font-weight: bold;
+	margin: auto;
 }
 .element{
 	min-width: 195px;
