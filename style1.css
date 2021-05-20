@@ -150,15 +150,19 @@ header{
     display: flex;
     border-radius: 50%;
     background-color: #DEEBFF;
-    width: 40px;
+    width: 35px;
     align-items: center;
     justify-content: center;
-    transform: scale(1.10);
+    transform: scale(1.15);
 }
 .texticon {
     font-weight: bold;
     font-size: 0.8em;
     padding: 0 10px;
+}
+.menufiltre p{
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog, .fa-info{
 	color: #0065FC;
@@ -406,8 +410,12 @@ footer{
 }
 
 .titrefonction{
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	font-weight: bold;
+}
+.fonction, .fonction2, .fonction3, p{
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 
