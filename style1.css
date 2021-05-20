@@ -57,7 +57,7 @@ header{
 	font-weight: bold;
 }
 .where{
-	margin-top: -15px;
+	margin-top: -5px;
 }
 .titreh2{
 	margin-left: 35px;
@@ -334,6 +334,12 @@ header{
 	height: 80%;
     justify-content: space-around;
 }
+.fa-chart-line{
+	padding-top: 22px;
+}
+.popu{
+	padding-top: 20px;
+}
 
 /*Activites*/
 
@@ -511,7 +517,7 @@ footer{
 		.textpopu{
 			width: 90%;
 			font-size: 20px;
-			padding-bottom: 10px;
+			padding-bottom: 34px;
 		}
 		.textphoto2{
 			display: flex;
@@ -596,6 +602,9 @@ footer{
 			padding: 15px;
 			border-top: none;
 		}
+		.infoprincipal p{
+			border-top: 0px solid #fff;
+		}
 		.info1{
 			order: 1;
 			position: absolute;
@@ -649,7 +658,7 @@ footer{
 		}
 	/*POPULAIRES*/
 		.section2{
-			min-height: 520px;
+			min-height: 550px;
 		}
 		.element2{
 			width: 100%;
